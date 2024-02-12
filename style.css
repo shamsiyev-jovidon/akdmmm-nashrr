@@ -1,9 +1,4 @@
 
-
-/* roboto 400, 500, 700,
-roboto condensed 700, */
-
-
 body{
   font-size: 16px;
   line-height: 1.5;
@@ -14,11 +9,22 @@ body{
 
 .site-header{
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.site-header-actions{
+  display: flex;
+  align-items: center;
 }
 
 
 .sitenav-list{
   list-style: none;
+  display: flex;
 }
 
 
@@ -45,6 +51,9 @@ body{
 
 
 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -52,6 +61,14 @@ body{
 
 .hero-content{
   width: 390px;
+}
+
+
+
+.futures-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
 
@@ -109,6 +126,9 @@ body{
 .promo{
   background-color: #252420;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .promo-content{
@@ -139,10 +159,29 @@ body{
   list-style: none;
 }
 
+
+.footer-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer-site{
+  display: flex;
+}
+
+
 .site-footer-divider{
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
 }
+
+
+.bottom-links{
+  display: flex;
+}
+
 
 .test-link{
   list-style-type: lower-latin;
@@ -159,4 +198,56 @@ body{
 .site-footer-links a{
   color: #252420;
   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .parent{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: ; */
+  /* justify-content: end;
+  align-items: center;
+}
+
+.child{
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.child-green{
+  background-color: lightgreen;
+}
+
+.child-gold{
+  background-color: gold;
+}
+
+.child-orange{
+  background-color: orange;
 }
